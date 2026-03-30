@@ -119,6 +119,25 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
+## Step 7 🐙
+- What we did → used `.map()` to render multiple WeatherForecast components
+- Why we did it → automatically create UI from data instead of repeating code
+- Engineering principle →
+
+  - `DAR` → Data Automatically Renders → UI is generated from data
+  - `DRY` → Don’t Repeat Yourself → avoid manual duplication
+
+### Key words
+- `map()` → loops through an array and returns something for each item
+- `dynamic rendering` → UI created from data automatically
+- `key` → unique identifier React uses to track list items
+
+### Test
+- browser shows 5 weather cards
+- no errors in console
+
+---
+
 ## Key Takeaways
 
 - Start clean → build better

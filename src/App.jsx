@@ -45,10 +45,12 @@ const App = () => {
 
   return (
     <section>
-      <h1>Local Weather</h1>
+       <h1>Local Weather</h1>
 
-      {/* 🐻 Render one weather card */}
-      <WeatherForecast />
+      {/* Loop through data → create multiple components */}
+      {weatherForecasts.map((forecast, index) => (
+        <WeatherForecast key={index} />
+      ))}
     </section>
   );
 };
