@@ -1,9 +1,10 @@
 // src/App.jsx
 
-// 🧠 Root component → controls the whole app
+import WeatherForecast from './components/WeatherForecast/WeatherForecast';
+
+// 🧠 Root component
 const App = () => {
 
-  // 🌦️ Data → list of weather forecasts
   const weatherForecasts = [
     {
       day: 'Mon',
@@ -43,7 +44,12 @@ const App = () => {
   ];
 
   return (
-    <h1>Hello world!</h1>
+    <section>
+      <h1>Local Weather</h1>
+
+      {/* 🐻 Render one weather card */}
+      <WeatherForecast />
+    </section>
   );
 };
 

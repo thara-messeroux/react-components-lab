@@ -99,6 +99,26 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
+## Step 6 🐻
+- What we did → imported and rendered WeatherForecast in App.jsx
+- Why we did it → connected the component to the UI so it appears in the browser
+- Engineering principle →
+
+  - `CRUD` → Create, Read, Update, Delete  
+    → the 4 basic operations in apps  
+
+  - `Read` → displaying data to the user  
+
+  - `IRS` → Import → Render → See  
+    → steps to display a component on screen  
+
+### Key words
+- `import` → bring a component into a file
+- `render` → display something on the screen
+- `component usage` → placing `<Component />` in JSX to show it
+
+---
+
 ## Key Takeaways
 
 - Start clean → build better
