@@ -84,6 +84,21 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
+## Step 5 🦊
+- What we did → created the WeatherForecast component template
+- Why we did it → we need one reusable weather card before making it dynamic
+- Engineering principle →
+
+  - `DRY` → Don’t Repeat Yourself  
+    → build once, reuse many times  
+
+### Key words
+- `reusable component` → one UI block used multiple times
+- `template` → a starter structure we fill with real data later
+- `JSX` → HTML-like syntax used inside React
+
+---
+
 ## Key Takeaways
 
 - Start clean → build better
