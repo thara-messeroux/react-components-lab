@@ -66,6 +66,24 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
+## Step 4 🐬
+- What we did → added weather data array into App.jsx
+- Why we did it → this data will power the UI we build next
+- Engineering principle →
+
+  - `DSS` → Data Shapes Structure  
+    → UI depends on how data is structured  
+
+  - `PDP` → Parent Data Pattern  
+    → parent component holds and distributes data  
+
+### Key words
+- `array` → a list of items
+- `object` → a group of related data (day, weather, time)
+- `data-driven UI` → UI that is generated from data
+
+---
+
 ## Key Takeaways
 
 - Start clean → build better
