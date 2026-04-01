@@ -1,30 +1,24 @@
-// src/components/WeatherForecast/WeatherForecast.jsx
+// WeatherForecast.jsx
 
-import "./WeatherForecast.css";
+import WeatherIcon from "./WeatherIcon";
+import WeatherData from "./WeatherData";
 
-// 🐳 Weather card → receives data from parent (props)
 const WeatherForecast = (props) => {
   return (
     <div className="weather">
-      {/* Show day */}
-      <h2>{props.day}</h2>
+      {/* image component */}
+      <WeatherIcon img={props.img} imgAlt={props.imgAlt} />
 
-      {/* Show weather icon */}
-      <img src={props.img} alt={props.imgAlt} />
-
-      {/* Show condition */}
-      <p>
-        <span>conditions: </span>
-        {props.conditions}
-      </p>
-
-      {/* Show time */}
-      <p>
-        <span>time: </span>
-        {props.time}
-      </p>
+      {/* text component */}
+      <WeatherData
+        day={props.day}
+        conditions={props.conditions}
+        time={props.time}
+      />
     </div>
   );
 };
 
 export default WeatherForecast;
+
+

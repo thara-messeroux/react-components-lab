@@ -295,4 +295,19 @@ Build simple → then scale
 
 ---
 
+## Level Up Step 5 🦉
+- What we did → refactored WeatherForecast to use WeatherIcon and WeatherData
+- Why we did it → split responsibilities across smaller components
+- Engineering principle →
+
+  - `Composition` → building UI by combining smaller components
+  - `SRP` → Single Responsibility Principle
+
+### Key words
+- `composition` → combining components together
+- `refactor` → improving structure without changing behavior
+- `component reuse` → using smaller pieces to build bigger UI
+
+---
+
 
