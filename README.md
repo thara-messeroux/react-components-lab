@@ -268,3 +268,18 @@ Build simple → then scale
 
 ---
 
+## Level Up Step 3 🦊
+- What we did → created WeatherIcon component to display only the image
+- Why we did it → separate visual responsibility from data display
+- Engineering principle →
+
+  - `SRP` → Single Responsibility Principle  
+    → one component = one job  
+
+### Key words
+- `presentational component` → component focused only on UI
+- `props` → used to pass image data into the component
+
+---
+
+
