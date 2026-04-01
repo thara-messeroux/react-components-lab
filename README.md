@@ -169,6 +169,26 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
+## Step 9 🐳
+- What we did → used props inside WeatherForecast to display real data
+- Why we did it → turned static components into dynamic UI
+- Engineering principle →
+
+  - `RO` → Read Only → props can be used but not modified
+  - `ROD` → Receive → Open → Display → how components use props
+
+### Key words
+- `props` → data passed into a component
+- `dynamic UI` → UI that changes based on data
+- `data binding` → connecting data to UI
+
+### Test
+- 5 cards display different data
+- images appear correctly
+- no console errors
+
+---
+
 ## Key Takeaways
 
 - Start clean → build better

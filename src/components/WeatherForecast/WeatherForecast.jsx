@@ -1,15 +1,28 @@
 // src/components/WeatherForecast/WeatherForecast.jsx
 
-import './WeatherForecast.css';
+import "./WeatherForecast.css";
 
-// 🦊 Reusable weather card
-const WeatherForecast = () => {
+// 🐳 Weather card → receives data from parent (props)
+const WeatherForecast = (props) => {
   return (
     <div className="weather">
-      <h2>Day of the Week</h2>
-      <img src="" alt="" />
-      <p><span>conditions: </span>current weather conditions</p>
-      <p><span>time: </span>time of day</p>
+      {/* Show day */}
+      <h2>{props.day}</h2>
+
+      {/* Show weather icon */}
+      <img src={props.img} alt={props.imgAlt} />
+
+      {/* Show condition */}
+      <p>
+        <span>conditions: </span>
+        {props.conditions}
+      </p>
+
+      {/* Show time */}
+      <p>
+        <span>time: </span>
+        {props.time}
+      </p>
     </div>
   );
 };
