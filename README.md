@@ -282,4 +282,17 @@ Build simple → then scale
 
 ---
 
+## Level Up Step 4 🐳
+- What we did → created WeatherData component for the text content
+- Why we did it → separate the text responsibility from the image responsibility
+- Engineering principle →
+  - `SRP` → Single Responsibility Principle → one component should do one main job
+
+### Key words
+- `fragment` → `<>...</>` lets us return multiple elements without an extra wrapper
+- `presentational component` → component focused on showing UI only
+- `props` → data passed into the component
+
+---
+
 
