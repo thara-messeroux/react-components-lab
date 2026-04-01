@@ -138,6 +138,37 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
+### Props concept
+- `props` → data passed from parent to child component
+- `read-only` → child can use the data but cannot change it
+- `UDF` → Unidirectional Data Flow → data only flows one way (parent → child)
+
+### Mental model
+- Parent owns data
+- Child displays data
+- Child does NOT modify data
+
+---
+
+## Step 8 🐝
+- What we did → passed weather data into WeatherForecast as props
+- Why we did it → each component now receives its own data
+- Engineering principle →
+
+  - `UDF` → Unidirectional Data Flow → parent sends data down to child
+  - `PUD` → Pass → Use → Display → flow of data in components
+
+### Key words
+- `props` → data passed from parent to child component
+- `arguments` → values passed into a function (props work similarly)
+- `dynamic data` → data that changes per component
+
+### Test
+- still 5 cards
+- still placeholder text (expected)
+
+---
+
 ## Key Takeaways
 
 - Start clean → build better
