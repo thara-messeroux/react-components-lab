@@ -238,3 +238,33 @@ Build simple → then scale
 ### .map()
 - loops through an array
 - returns UI elements
+
+---
+
+## Level Up Step 1 🐢
+- What we did → planned the new component tree for the refactor
+- Why we did it → understand the design before changing code
+- Engineering principle →
+  - `SRP` → Single Responsibility Principle → each component should do one main job
+
+### Key words
+- `refactor` → improve code structure without changing what the app does
+- `component tree` → the parent-child structure of components
+- `SRP` → Single Responsibility Principle
+
+---
+
+## Level Up Step 2 🐘
+- What we did → created new component files (WeatherIcon, WeatherData)
+- Why we did it → prepare for breaking down the main component
+- Engineering principle →
+
+  - `SOC` → Separation of Concerns  
+    → split responsibilities across components  
+
+### Key words
+- `component file` → file that defines a React component
+- `modularization` → breaking code into smaller parts
+
+---
+
