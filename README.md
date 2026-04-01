@@ -189,6 +189,18 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
+### Props (core concept)
+- `props` → an object automatically passed into a component
+- created by React (you do NOT initialize it manually)
+- used to send data from parent → child
+
+### Mental model
+- component = function
+- props = input object
+- UI = output
+
+---
+
 ## Key Takeaways
 
 - Start clean → build better
@@ -198,3 +210,31 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ✊🏾 Rule:
 Build simple → then scale
+
+---
+
+## Final Outcome 🎉
+- Built a React app using reusable components
+- Passed data using props (parent → child)
+- Rendered dynamic UI using `.map()`
+
+---
+
+## Key Concepts
+
+### CRUD (Read)
+- displaying data from a source (no editing yet)
+
+### KISS (Keep It Simple, Stupid)
+- build simple static UI first, then make it dynamic
+
+### DRY (Don’t Repeat Yourself)
+- reused components instead of duplicating code
+
+### Props
+- object passed automatically by React
+- used to send data into components
+
+### .map()
+- loops through an array
+- returns UI elements
